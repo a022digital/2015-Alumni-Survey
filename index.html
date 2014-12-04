@@ -328,7 +328,7 @@
       margin-bottom: 0;
       font-size: 70px;
       letter-spacing: -1px;
-      color: black;
+      color: #fff;
     }
     .main section.page3 h2 {
       color: rgba(0,0,0,0.85);
@@ -337,6 +337,20 @@
       font-weight: 100;
       font-size: 21px;
     }
+    
+    @media only screen and (max-width : 1250px) {
+	    .main section.page3 .page_container {
+			right: inherit;  
+			width: 50%;
+			left: 2%;
+			margin: 0;
+	    }
+	    .main section.page3 h2 {
+	      	font-weight: normal;
+	      	color: rgba(255,255,255,1);
+		}
+    }
+
     
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
